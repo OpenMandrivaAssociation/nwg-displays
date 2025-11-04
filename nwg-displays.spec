@@ -9,9 +9,9 @@ BuildRequires:  fdupes
 BuildRequires:  pkgconfig(gtk-layer-shell-0)
 BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(python3)
-BuildRequires:  python3-setuptools
-Requires:       libgtk-3-0
-Requires:       libgtk-layer-shell0
+BuildRequires:  python-setuptools
+Requires:       %{_lib}gtk3_0
+Requires:       %{_lib}gtk-layer-shell0
 Requires:       python3-gobject
 Requires:       python3-i3ipc
 Requires:       typelib(GtkLayerShell)
