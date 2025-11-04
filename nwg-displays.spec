@@ -12,8 +12,8 @@ BuildRequires:  pkgconfig(python3)
 BuildRequires:  python-setuptools
 Requires:       %{_lib}gtk3_0
 Requires:       %{_lib}gtk-layer-shell0
-Requires:       python3-gobject
-Requires:       python3-i3ipc
+Requires:       python-gobject3
+Requires:       python-i3ipc
 Requires:       typelib(GtkLayerShell)
 BuildArch:      noarch
 
