@@ -1,6 +1,6 @@
 Name:           nwg-displays
-Version:        0.3.26
-Release:        2
+Version:        0.4.3
+Release:        1
 Summary:        Output management utility for sway and Hyprland. 
 License:        MIT
 URL:            https://github.com/nwg-piotr/nwg-displays
