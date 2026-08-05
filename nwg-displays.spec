@@ -53,6 +53,8 @@ done
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
+%{_bindir}/nwg-displays-apply
+%{_bindir}/nwg-displays-toggle-wallpapers
 %{_datadir}/applications/*.desktop
 %{_datadir}/pixmaps/*.svg
 %{python_sitelib}/nwg_displays
