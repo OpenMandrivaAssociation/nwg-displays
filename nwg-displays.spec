@@ -1,7 +1,7 @@
 Name:           nwg-displays
-Version:        0.4.3
+Version:        0.4.4
 Release:        1
-Summary:        Output management utility for sway and Hyprland. 
+Summary:        Output management utility for sway, Hyprland and Niri
 License:        MIT
 URL:            https://github.com/nwg-piotr/nwg-displays
 Source0:        %{url}/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
@@ -19,7 +19,7 @@ BuildArch:      noarch
 
 %description
 
-Nwg-displays is an output management utility for sway and Hyprland Wayland compositor, inspired by wdisplays and wlay. 
+Nwg-displays is an output management utility for sway, Hyprland and Niri Wayland compositor, inspired by wdisplays and wlay. 
 The program is expected to:
   - provide an intuitive GUI to manage multiple displays;
   - apply settings;
